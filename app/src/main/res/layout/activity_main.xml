@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gopalawasthi.alarmnotification.MainActivity">
+
+   <Button
+       android:id="@+id/sharetext"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:onClick="sharetext"
+       android:text="share text"/>
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:onClick="callme"
+        android:text="call anonymous"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:onClick="opengmail"
+        android:text="gmail"/>
+    <Button
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:onClick="openurl"
+        android:text="openurl"/>
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textme"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:onClick="broadcast"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="camera"
+        android:onClick="camera"/>
+ <Button
+     android:onClick="message"
+     android:id="@+id/messgebutton"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="12dp"
+     android:layout_marginLeft="12dp"
+     android:text="message"/>
+ <ListView
+     android:id="@+id/listview"
+     android:layout_width="match_parent"
+     android:layout_marginLeft="12dp"
+     android:layout_marginRight="12dp"
+     android:layout_height="match_parent"></ListView>
+</LinearLayout>
